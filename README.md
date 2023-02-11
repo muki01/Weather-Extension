@@ -2,7 +2,7 @@
 This is Weather Extension for browsers.
 <br/>
 
-## Download the latest revision
+## ⬇️Download the latest revision
 ```
 # Download using this code:
 
