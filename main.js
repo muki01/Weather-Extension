@@ -9,7 +9,7 @@ let locationBtn = document.getElementById('locationBtn');
 let refreshBtn = document.getElementById('refreshBtn');
 
 let tempData, descriptionData, locationData, feels_likeData, humidityData, day_nightChecker;
-let defaultLocation = 'Zimovina';
+let defaultLocation = 'Haskovo';
 
 function APIrequest() {
     let request = new XMLHttpRequest();
