@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background : linear-gradient(180deg, #0fc8f1 0%, #2a85ff 100%);
+}
+
+.box {
+    min-width: 370px;
+    height: auto;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    margin: 8px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.box .container {
+    padding: 5px 20px;
+    text-align: center;
+}
+.box .header {
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.box .wetherImg {
+    width: 200px;
+    height: 150px;
+    object-fit:contain;
+}
+.box #temp{
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 55px;
+}
+.box .locationLine {
+    display: grid;
+    grid-template: auto/auto auto;
+    justify-content: center;
+    line-height: 20px;
+}
+.box .locationLine i{
+    margin: auto 10px;
+    font-size: 20px;
+}
+.box .row{
+    display: grid;
+    grid-template: auto/170px auto;
+    margin: 5px 0;
+}
+.box .detailBox {
+    display: grid;
+    grid-template: auto/auto auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    line-height: 20px;
+}
+.box .detailBox i{
+    margin: auto 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(0, 166, 255);
+}
+.box .detailBox .text{
+    text-align: start;
+}
+.box .detailBox .text h1{
+    font-weight: bold;
+}
+.box .detailBox .text p{
+    font-size: 16px;
+}
+.box button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333849;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+.box button:hover {
+    scale: 1.05;
+    transition: 0.3s ease;
+}
+.box button:active{
+    scale: 0.95;
+}
+
+#locationInput{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    padding: 3px 5px;
+    font-size: 18px;
+}
+#locationBtn{
+    display: block;
+    margin: 5px auto 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
