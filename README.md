@@ -18,7 +18,7 @@ You can change default location in <b>main.js</b> file !
 
 ## :scroll: Changelog
 Weather-Extension gets updates with new features, improvements, and bugfixes.
-Be sure to check out the [changelog here]().
+Be sure to check out the [changelog here](https://github.com/muki01/Weather-Extension/releases).
 
 ## Photos
 ![screen](https://user-images.githubusercontent.com/75759731/218227824-c85b97b0-7778-4c03-a024-b3530875689f.png)
